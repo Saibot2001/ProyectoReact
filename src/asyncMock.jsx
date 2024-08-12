@@ -12,7 +12,7 @@ const products = [
         id: '2',
         name: ' producto2',
         price: 100,
-        category: 'celular',
+        category: 'tablet',
         img: 'pendiente',
         stock: 25,
         description: 'dfjdklfjdkfjd'
@@ -21,7 +21,7 @@ const products = [
         id: '3',
         name: ' producto3',
         price: 100,
-        category: 'celular',
+        category: 'notebook',
         img: 'pendiente',
         stock: 25,
         description: 'dfjdklfjdkfjd'

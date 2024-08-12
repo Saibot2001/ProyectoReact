@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 // import './Item.css' sumar cuando tenga estilo y exportar del otro lado
 const Item =({id, name, img, price, stock}) => {
     return(
@@ -19,7 +21,7 @@ const Item =({id, name, img, price, stock}) => {
                 </p>
             </section>
             <footer className="ItemFooter">
-                <button className="Option">Ver detalle</button>
+                <Link to {'/item/${id}'} className="Option">Ver detalle</Link>
             </footer>
         </article>
     )
