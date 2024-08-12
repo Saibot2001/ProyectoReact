@@ -1,27 +1,27 @@
 const products = [
     {
         id: '1',
-        name: ' producto',
+        name: ' Lapicero',
         price: 100,
-        category: 'celular',
+        category: 'escritorio',
         img: 'pendiente',
         stock: 25,
         description: 'dfjdklfjdkfjd'
     },
     {
         id: '2',
-        name: ' producto2',
+        name: ' Saitama',
         price: 100,
-        category: 'tablet',
+        category: 'anime',
         img: 'pendiente',
         stock: 25,
         description: 'dfjdklfjdkfjd'
     },
     {
         id: '3',
-        name: ' producto3',
+        name: 'llavero',
         price: 100,
-        category: 'notebook',
+        category: 'accesorios',
         img: 'pendiente',
         stock: 25,
         description: 'dfjdklfjdkfjd'

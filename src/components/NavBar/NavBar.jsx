@@ -5,12 +5,12 @@ const NavBar = () => {
     return(
         <nav>
             <Link to='/'>
-                <h3>Ecommerce</h3>
+                <h3>Saurios Impresiones</h3>
             </Link>
             <div>
-                <NavLink to={'/category/celular'} className ={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Celulares</NavLink>
-                <NavLink to={'/category/tablet'} className ={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Tablet</NavLink>
-                <NavLink to={'/category/notebook'} className ={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>notebook</NavLink>
+                <NavLink to={'/category/escritorio'} className ={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Escritorio</NavLink>
+                <NavLink to={'/category/anime'} className ={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Anime</NavLink>
+                <NavLink to={'/category/accesorios'} className ={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Accesorios</NavLink>
             </div>
             <CartWidget /> 
         </nav>
